@@ -1,0 +1,42 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.nav-color {
+    color: gray;
+}
+nav  ul  li  a {
+    font-weight: 700;
+}
+.carousel-item {
+    /* background-color: lightblue; */
+}
+.carousel-indicators .active {
+    background-color: #FF9C35;
+    width: 45px;
+    height: 12px;
+}
+.carousel-indicators li {
+    background-color: #CECECE;
+    width: 16px;
+    height: 12px;
+    border-radius: 10px;
+    border-top: none;
+    border-bottom: none;
+}
+.gadgets-slide {
+    padding: 10px 90px 10px 30px;
+}
+.gadgets-slide h1 {
+    font-size: 41px;
+}
+.gadgets-slide p {
+    color: #707070;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.buy-now-btn {
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+}
