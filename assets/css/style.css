@@ -7,6 +7,9 @@ body {
 nav  ul  li  a {
     font-weight: 700;
 }
+.navbar {
+    padding-left: 0px;
+}
 .carousel-item {
     /* background-color: lightblue; */
 }
@@ -24,7 +27,8 @@ nav  ul  li  a {
     border-bottom: none;
 }
 .gadgets-slide {
-    padding: 10px 90px 10px 30px;
+    /* padding: 10px 90px 10px 30px; */
+    padding-right: 120px;
 }
 .gadgets-slide h1 {
     font-size: 41px;
@@ -39,4 +43,49 @@ nav  ul  li  a {
     background-color: #000;
     color: #fff;
     font-weight: bold;
+    font-size: 14px;
+    padding: 8px 30px;
+}
+.buy-now-btn:hover {
+    background-color: #FF9D00;
+    color: #fff;
+}
+.margin-top {
+    margin-top: 100px;
+}
+
+.smartphone-top h6, .laptop-top h6 {
+    color: #FF9D00;
+}
+
+.smartphone-top a, .laptop-top a {
+    text-decoration: none;
+}
+
+.smartphone-zone img {
+    padding: 50px 5px;
+}
+
+.card {
+    border: none;
+    box-shadow: 2px 2px 10px rgb(244, 242, 242);
+    border-radius: 10px;
+}
+.card-footer {
+    background-color: #fff;
+    border-top: none;
+    padding-bottom:50px;
+}
+
+.item-price {
+    font-weight: 700;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color:#707070;
+    font-size: 15px;
 }
